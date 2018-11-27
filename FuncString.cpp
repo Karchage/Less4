@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cstring>
-//#include <string>
 #include <stdio.h>
-void StrLen() // Dlinna string
+void StrLen()
 {
 	int size=0;
 	std::string str;
@@ -14,7 +13,7 @@ void StrLen() // Dlinna string
 	}	
 	std::cout<<"String size: "<<size;
 }
-void StrCmp() // Sravnivaet 2 stroki return try if 1 = 2
+void StrCmp()
 {
 	bool ChStr;
 	std::string str1,str2;
@@ -27,7 +26,7 @@ void StrCmp() // Sravnivaet 2 stroki return try if 1 = 2
 	else ChStr = false;
 	std::cout<<"New string: "<<ChStr;
 }
-void StrChr() //Search first simbol and return * = 
+void StrChr()
 {
 	char simbol;
 	std::string str;
@@ -44,7 +43,7 @@ void StrChr() //Search first simbol and return * =
 	}
 	std::cout<<p<<"\n"<<*p<<"\n"<<&p<<"\n";
 }
-void StrCpy() // Copy one string to two string
+void StrCpy()
 {
 	std::string str1,str2;
 	std::cout<<"Please write string: ";
@@ -52,7 +51,7 @@ void StrCpy() // Copy one string to two string
 	str2=str1;
 	std::cout<<"String2: "<<str2;
 }
-void StrCat() // soedin 2 string
+void StrCat()
 {
 	std::string str1,str2;
 	std::cout<<"Please write string1 and string2: ";
